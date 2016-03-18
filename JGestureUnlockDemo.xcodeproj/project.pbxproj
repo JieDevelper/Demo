@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FA2106D1C9C401400A4FA61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA2106C1C9C401400A4FA61 /* main.m */; };
+		2FA210701C9C401400A4FA61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA2106F1C9C401400A4FA61 /* AppDelegate.m */; };
+		2FA210731C9C401400A4FA61 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA210721C9C401400A4FA61 /* ViewController.m */; };
+		2FA210761C9C401400A4FA61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FA210741C9C401400A4FA61 /* Main.storyboard */; };
+		2FA210781C9C401400A4FA61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FA210771C9C401400A4FA61 /* Assets.xcassets */; };
+		2FA2107B1C9C401400A4FA61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FA210791C9C401400A4FA61 /* LaunchScreen.storyboard */; };
+		2FA210861C9C401400A4FA61 /* JGestureUnlockDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA210851C9C401400A4FA61 /* JGestureUnlockDemoTests.m */; };
+		2FA210911C9C401400A4FA61 /* JGestureUnlockDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA210901C9C401400A4FA61 /* JGestureUnlockDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FA210821C9C401400A4FA61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FA210601C9C401400A4FA61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FA210671C9C401400A4FA61;
+			remoteInfo = JGestureUnlockDemo;
+		};
+		2FA2108D1C9C401400A4FA61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FA210601C9C401400A4FA61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FA210671C9C401400A4FA61;
+			remoteInfo = JGestureUnlockDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FA210681C9C401400A4FA61 /* JGestureUnlockDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JGestureUnlockDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FA2106C1C9C401400A4FA61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2FA2106E1C9C401400A4FA61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2FA2106F1C9C401400A4FA61 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2FA210711C9C401400A4FA61 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2FA210721C9C401400A4FA61 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2FA210751C9C401400A4FA61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FA210771C9C401400A4FA61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FA2107A1C9C401400A4FA61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FA2107C1C9C401400A4FA61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FA210811C9C401400A4FA61 /* JGestureUnlockDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JGestureUnlockDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FA210851C9C401400A4FA61 /* JGestureUnlockDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGestureUnlockDemoTests.m; sourceTree = "<group>"; };
+		2FA210871C9C401400A4FA61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FA2108C1C9C401400A4FA61 /* JGestureUnlockDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JGestureUnlockDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FA210901C9C401400A4FA61 /* JGestureUnlockDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGestureUnlockDemoUITests.m; sourceTree = "<group>"; };
+		2FA210921C9C401400A4FA61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FA210651C9C401400A4FA61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FA2107E1C9C401400A4FA61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FA210891C9C401400A4FA61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FA2105F1C9C401400A4FA61 = {
+			isa = PBXGroup;
+			children = (
+				2FA2106A1C9C401400A4FA61 /* JGestureUnlockDemo */,
+				2FA210841C9C401400A4FA61 /* JGestureUnlockDemoTests */,
+				2FA2108F1C9C401400A4FA61 /* JGestureUnlockDemoUITests */,
+				2FA210691C9C401400A4FA61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FA210691C9C401400A4FA61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FA210681C9C401400A4FA61 /* JGestureUnlockDemo.app */,
+				2FA210811C9C401400A4FA61 /* JGestureUnlockDemoTests.xctest */,
+				2FA2108C1C9C401400A4FA61 /* JGestureUnlockDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FA2106A1C9C401400A4FA61 /* JGestureUnlockDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2FA2106E1C9C401400A4FA61 /* AppDelegate.h */,
+				2FA2106F1C9C401400A4FA61 /* AppDelegate.m */,
+				2FA210711C9C401400A4FA61 /* ViewController.h */,
+				2FA210721C9C401400A4FA61 /* ViewController.m */,
+				2FA210741C9C401400A4FA61 /* Main.storyboard */,
+				2FA210771C9C401400A4FA61 /* Assets.xcassets */,
+				2FA210791C9C401400A4FA61 /* LaunchScreen.storyboard */,
+				2FA2107C1C9C401400A4FA61 /* Info.plist */,
+				2FA2106B1C9C401400A4FA61 /* Supporting Files */,
+			);
+			path = JGestureUnlockDemo;
+			sourceTree = "<group>";
+		};
+		2FA2106B1C9C401400A4FA61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FA2106C1C9C401400A4FA61 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FA210841C9C401400A4FA61 /* JGestureUnlockDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FA210851C9C401400A4FA61 /* JGestureUnlockDemoTests.m */,
+				2FA210871C9C401400A4FA61 /* Info.plist */,
+			);
+			path = JGestureUnlockDemoTests;
+			sourceTree = "<group>";
+		};
+		2FA2108F1C9C401400A4FA61 /* JGestureUnlockDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2FA210901C9C401400A4FA61 /* JGestureUnlockDemoUITests.m */,
+				2FA210921C9C401400A4FA61 /* Info.plist */,
+			);
+			path = JGestureUnlockDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FA210671C9C401400A4FA61 /* JGestureUnlockDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FA210951C9C401400A4FA61 /* Build configuration list for PBXNativeTarget "JGestureUnlockDemo" */;
+			buildPhases = (
+				2FA210641C9C401400A4FA61 /* Sources */,
+				2FA210651C9C401400A4FA61 /* Frameworks */,
+				2FA210661C9C401400A4FA61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JGestureUnlockDemo;
+			productName = JGestureUnlockDemo;
+			productReference = 2FA210681C9C401400A4FA61 /* JGestureUnlockDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FA210801C9C401400A4FA61 /* JGestureUnlockDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FA210981C9C401400A4FA61 /* Build configuration list for PBXNativeTarget "JGestureUnlockDemoTests" */;
+			buildPhases = (
+				2FA2107D1C9C401400A4FA61 /* Sources */,
+				2FA2107E1C9C401400A4FA61 /* Frameworks */,
+				2FA2107F1C9C401400A4FA61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FA210831C9C401400A4FA61 /* PBXTargetDependency */,
+			);
+			name = JGestureUnlockDemoTests;
+			productName = JGestureUnlockDemoTests;
+			productReference = 2FA210811C9C401400A4FA61 /* JGestureUnlockDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2FA2108B1C9C401400A4FA61 /* JGestureUnlockDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FA2109B1C9C401400A4FA61 /* Build configuration list for PBXNativeTarget "JGestureUnlockDemoUITests" */;
+			buildPhases = (
+				2FA210881C9C401400A4FA61 /* Sources */,
+				2FA210891C9C401400A4FA61 /* Frameworks */,
+				2FA2108A1C9C401400A4FA61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FA2108E1C9C401400A4FA61 /* PBXTargetDependency */,
+			);
+			name = JGestureUnlockDemoUITests;
+			productName = JGestureUnlockDemoUITests;
+			productReference = 2FA2108C1C9C401400A4FA61 /* JGestureUnlockDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FA210601C9C401400A4FA61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = zhangjie520;
+				TargetAttributes = {
+					2FA210671C9C401400A4FA61 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					2FA210801C9C401400A4FA61 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 2FA210671C9C401400A4FA61;
+					};
+					2FA2108B1C9C401400A4FA61 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 2FA210671C9C401400A4FA61;
+					};
+				};
+			};
+			buildConfigurationList = 2FA210631C9C401400A4FA61 /* Build configuration list for PBXProject "JGestureUnlockDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FA2105F1C9C401400A4FA61;
+			productRefGroup = 2FA210691C9C401400A4FA61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FA210671C9C401400A4FA61 /* JGestureUnlockDemo */,
+				2FA210801C9C401400A4FA61 /* JGestureUnlockDemoTests */,
+				2FA2108B1C9C401400A4FA61 /* JGestureUnlockDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FA210661C9C401400A4FA61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FA2107B1C9C401400A4FA61 /* LaunchScreen.storyboard in Resources */,
+				2FA210781C9C401400A4FA61 /* Assets.xcassets in Resources */,
+				2FA210761C9C401400A4FA61 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FA2107F1C9C401400A4FA61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FA2108A1C9C401400A4FA61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FA210641C9C401400A4FA61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FA210731C9C401400A4FA61 /* ViewController.m in Sources */,
+				2FA210701C9C401400A4FA61 /* AppDelegate.m in Sources */,
+				2FA2106D1C9C401400A4FA61 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FA2107D1C9C401400A4FA61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FA210861C9C401400A4FA61 /* JGestureUnlockDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FA210881C9C401400A4FA61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FA210911C9C401400A4FA61 /* JGestureUnlockDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FA210831C9C401400A4FA61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FA210671C9C401400A4FA61 /* JGestureUnlockDemo */;
+			targetProxy = 2FA210821C9C401400A4FA61 /* PBXContainerItemProxy */;
+		};
+		2FA2108E1C9C401400A4FA61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FA210671C9C401400A4FA61 /* JGestureUnlockDemo */;
+			targetProxy = 2FA2108D1C9C401400A4FA61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2FA210741C9C401400A4FA61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FA210751C9C401400A4FA61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FA210791C9C401400A4FA61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FA2107A1C9C401400A4FA61 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FA210931C9C401400A4FA61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FA210941C9C401400A4FA61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FA210961C9C401400A4FA61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JGestureUnlockDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bj.zj.JGestureUnlockDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2FA210971C9C401400A4FA61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JGestureUnlockDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bj.zj.JGestureUnlockDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2FA210991C9C401400A4FA61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JGestureUnlockDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bj.zj.JGestureUnlockDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JGestureUnlockDemo.app/JGestureUnlockDemo";
+			};
+			name = Debug;
+		};
+		2FA2109A1C9C401400A4FA61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JGestureUnlockDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bj.zj.JGestureUnlockDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JGestureUnlockDemo.app/JGestureUnlockDemo";
+			};
+			name = Release;
+		};
+		2FA2109C1C9C401400A4FA61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JGestureUnlockDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bj.zj.JGestureUnlockDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JGestureUnlockDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2FA2109D1C9C401400A4FA61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JGestureUnlockDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bj.zj.JGestureUnlockDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JGestureUnlockDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FA210631C9C401400A4FA61 /* Build configuration list for PBXProject "JGestureUnlockDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FA210931C9C401400A4FA61 /* Debug */,
+				2FA210941C9C401400A4FA61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FA210951C9C401400A4FA61 /* Build configuration list for PBXNativeTarget "JGestureUnlockDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FA210961C9C401400A4FA61 /* Debug */,
+				2FA210971C9C401400A4FA61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2FA210981C9C401400A4FA61 /* Build configuration list for PBXNativeTarget "JGestureUnlockDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FA210991C9C401400A4FA61 /* Debug */,
+				2FA2109A1C9C401400A4FA61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2FA2109B1C9C401400A4FA61 /* Build configuration list for PBXNativeTarget "JGestureUnlockDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FA2109C1C9C401400A4FA61 /* Debug */,
+				2FA2109D1C9C401400A4FA61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FA210601C9C401400A4FA61 /* Project object */;
+}
