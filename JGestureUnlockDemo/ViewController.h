@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+typedef NS_ENUM(NSInteger,LockType){
+    LOCK_TYPE_DRAW = 0,
+    LOCK_TYPE_UNLOCK = 1
+};
 
 @interface ViewController : UIViewController
 
-
+@property (nonatomic, assign) LockType lockType;
 @end
 

@@ -15,6 +15,8 @@
 		2FA2107B1C9C401400A4FA61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FA210791C9C401400A4FA61 /* LaunchScreen.storyboard */; };
 		2FA210861C9C401400A4FA61 /* JGestureUnlockDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA210851C9C401400A4FA61 /* JGestureUnlockDemoTests.m */; };
 		2FA210911C9C401400A4FA61 /* JGestureUnlockDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA210901C9C401400A4FA61 /* JGestureUnlockDemoUITests.m */; };
+		2FA210A01C9C4D7600A4FA61 /* JUnlockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA2109F1C9C4D7600A4FA61 /* JUnlockView.m */; };
+		2FA210A31C9C726E00A4FA61 /* JViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA210A21C9C726E00A4FA61 /* JViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		2FA2108C1C9C401400A4FA61 /* JGestureUnlockDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JGestureUnlockDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FA210901C9C401400A4FA61 /* JGestureUnlockDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGestureUnlockDemoUITests.m; sourceTree = "<group>"; };
 		2FA210921C9C401400A4FA61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FA2109E1C9C4D7600A4FA61 /* JUnlockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUnlockView.h; sourceTree = "<group>"; };
+		2FA2109F1C9C4D7600A4FA61 /* JUnlockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUnlockView.m; sourceTree = "<group>"; };
+		2FA210A11C9C726E00A4FA61 /* JViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JViewController.h; sourceTree = "<group>"; };
+		2FA210A21C9C726E00A4FA61 /* JViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				2FA2106F1C9C401400A4FA61 /* AppDelegate.m */,
 				2FA210711C9C401400A4FA61 /* ViewController.h */,
 				2FA210721C9C401400A4FA61 /* ViewController.m */,
+				2FA2109E1C9C4D7600A4FA61 /* JUnlockView.h */,
+				2FA2109F1C9C4D7600A4FA61 /* JUnlockView.m */,
+				2FA210A11C9C726E00A4FA61 /* JViewController.h */,
+				2FA210A21C9C726E00A4FA61 /* JViewController.m */,
 				2FA210741C9C401400A4FA61 /* Main.storyboard */,
 				2FA210771C9C401400A4FA61 /* Assets.xcassets */,
 				2FA210791C9C401400A4FA61 /* LaunchScreen.storyboard */,
@@ -271,7 +281,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FA210731C9C401400A4FA61 /* ViewController.m in Sources */,
+				2FA210A01C9C4D7600A4FA61 /* JUnlockView.m in Sources */,
 				2FA210701C9C401400A4FA61 /* AppDelegate.m in Sources */,
+				2FA210A31C9C726E00A4FA61 /* JViewController.m in Sources */,
 				2FA2106D1C9C401400A4FA61 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -17,6 +17,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    UIStoryboard *board = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
+    
+//    if (![[NSUserDefaults standardUserDefaults] boolForKey:@"unlock"]) {
+//        self.window.rootViewController = [board instantiateViewControllerWithIdentifier:@"JViewController"];
+//    }else{
+        self.window.rootViewController = [board instantiateViewControllerWithIdentifier:@"ViewController"];
+//    }
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
